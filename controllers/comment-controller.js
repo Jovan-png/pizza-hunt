@@ -43,3 +43,6 @@ Comment.create(body)
         .catch(err => res.json(err))
     }
 }
+
+
+module.exports = commentController;
